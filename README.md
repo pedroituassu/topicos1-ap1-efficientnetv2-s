@@ -184,7 +184,7 @@ Além do notebook, foi elaborado um **conjunto de slides** contendo:
 
 **Equipe 1**
 
-| [<img src="https://github.com/thiagocordeirum.png?size=100" width=100><br><sub>Thiago Cordeiro</sub>](https://github.com/thiagocordeirum) | [<img src="https://github.com/cpc231341.png?size=100" width=100><br><sub>Cristiano Peniche</sub>](https://github.com/cpc231341) | [<img src="https://github.com/andradepv.png?size=100" width=100><br><sub>Pauko Andrade</sub>](https://github.com/andradepv) | [<img src="https://github.com/jaum36.png?size=100" width=100><br><sub>João Victor</sub>](https://github.com/jaum36) | [<img src="https://github.com/pedroituassu.png?size=100" width=100><br><sub>Pedro Ituassú</sub>](https://github.com/pedroituassu) |
+| [<img src="https://github.com/thiagocordeirum.png?size=100" width=100><br><sub>Thiago Cordeiro</sub>](https://github.com/thiagocordeirum) | [<img src="https://github.com/cpc231341.png?size=100" width=100><br><sub>Cristiano Peniche</sub>](https://github.com/cpc231341) | [<img src="https://github.com/andradepv.png?size=100" width=100><br><sub>Paulo Andrade</sub>](https://github.com/andradepv) | [<img src="https://github.com/jaum36.png?size=100" width=100><br><sub>João Victor</sub>](https://github.com/jaum36) | [<img src="https://github.com/pedroituassu.png?size=100" width=100><br><sub>Pedro Ituassú</sub>](https://github.com/pedroituassu) |
 |:---:|:---:|:---:|:---:|:---:|
 
 Modelo utilizado pela equipe: **EfficientNetV2-S**
