@@ -6,27 +6,7 @@ Nesta atividade foi desenvolvido um sistema de **classificação de imagens de r
 
 ---
 
-# 📁 Estrutura do Projeto
-```
-├── TopicosI-AP1-TransferLearning.ipynb
-├── models/
-│ └── best_model.pth
-├── training_log.csv
-├── slides/
-│ └── apresentacao.pdf
-└── README.md
-```
-
-
-- **TopicosI-AP1-TransferLearning.ipynb** → Notebook com toda a implementação do treinamento e avaliação  
-- **models/** → Modelos treinados salvos durante o treinamento  
-- **training_log.csv** → Registro das métricas de treinamento  
-- **slides/** → Apresentação com resultados e análise experimental  
-- **README.md** → Documentação do projeto  
-
----
-
-# ⚙️ Descrição da Atividade
+## ⚙️ Descrição da Atividade
 
 O objetivo da atividade é aplicar **técnicas avançadas de treinamento de redes neurais profundas** para resolver um problema de **classificação multiclasse de imagens**.
 
@@ -36,7 +16,7 @@ Devido à grande variedade de classes e à similaridade visual entre algumas ra�
 
 ---
 
-# 🧠 Arquitetura Utilizada
+## 🧠 Arquitetura Utilizada
 
 O modelo escolhido foi a **EfficientNetV2-S**, uma arquitetura moderna de redes convolucionais profundas otimizada para **alto desempenho e eficiência computacional**.
 
@@ -53,17 +33,17 @@ Essa abordagem permite:
 
 ---
 
-# 🔎 Técnicas Utilizadas
+## 🔎 Técnicas Utilizadas
 
 Durante o desenvolvimento foram aplicadas diversas técnicas para melhorar o desempenho do modelo.
 
-## 🔸 Transfer Learning
+### 🔸 Transfer Learning
 
 Utilização de um modelo **pré-treinado** para aproveitar conhecimento previamente aprendido em grandes bases de imagens.
 
 ---
 
-## 🔸 Data Augmentation
+### 🔸 Data Augmentation
 
 Foram aplicadas transformações nas imagens para aumentar artificialmente o conjunto de dados e reduzir overfitting:
 
@@ -74,19 +54,19 @@ Foram aplicadas transformações nas imagens para aumentar artificialmente o con
 
 ---
 
-## 🔸 Taxa de Aprendizado Adaptativa
+### 🔸 Taxa de Aprendizado Adaptativa
 
 Foi utilizado um **scheduler de taxa de aprendizado**, permitindo ajustar dinamicamente o learning rate ao longo do treinamento, melhorando a convergência do modelo.
 
 ---
 
-## 🔸 Regularização L2
+### 🔸 Regularização L2
 
 Aplicação de **weight decay** no otimizador para penalizar pesos muito grandes e melhorar a capacidade de generalização da rede.
 
 ---
 
-## 🔸 Early Stopping
+### 🔸 Early Stopping
 
 Foi implementado **Early Stopping**, interrompendo o treinamento quando o desempenho no conjunto de validação deixa de melhorar após um determinado número de épocas.
 
@@ -94,7 +74,7 @@ Essa técnica evita **overfitting** e reduz o tempo de treinamento.
 
 ---
 
-# 📊 Monitoramento do Treinamento
+## 📊 Monitoramento do Treinamento
 
 Durante o treinamento foram monitorados:
 
@@ -108,7 +88,7 @@ Essas métricas foram registradas e posteriormente utilizadas para gerar **gráf
 
 ---
 
-# 📈 Visualização de Resultados
+## 📈 Visualização de Resultados
 
 Foram gerados gráficos mostrando:
 
@@ -120,7 +100,7 @@ Esses gráficos ajudam a analisar o comportamento do modelo e identificar possí
 
 ---
 
-# 📏 Avaliação no Conjunto de Teste
+## 📏 Avaliação no Conjunto de Teste
 
 Após o treinamento, o modelo foi avaliado utilizando o conjunto de teste.
 
@@ -135,13 +115,13 @@ Essas métricas permitem avaliar o desempenho do modelo em um cenário de **clas
 
 ---
 
-# ⏱️ Monitoramento de Tempo de Treinamento
+## ⏱️ Monitoramento de Tempo de Treinamento
 
 Foi realizado o monitoramento do **tempo total de treinamento**, permitindo avaliar o custo computacional do modelo e comparar diferentes configurações de treinamento.
 
 ---
 
-# 🔢 Quantidade de Parâmetros
+## 🔢 Quantidade de Parâmetros
 
 Foi calculado o número de parâmetros do modelo utilizando ferramentas de análise de arquitetura.
 
@@ -155,7 +135,7 @@ Essa análise ajuda a entender a **complexidade do modelo** e o impacto do Trans
 
 ---
 
-# 📊 Apresentação dos Resultados
+## 📊 Apresentação dos Resultados
 
 Além do notebook, foi elaborado um **conjunto de slides** contendo:
 
@@ -167,7 +147,7 @@ Além do notebook, foi elaborado um **conjunto de slides** contendo:
 
 ---
 
-# 🧰 Tecnologias Utilizadas
+## 🧰 Tecnologias Utilizadas
 
 - **Python**
 - **PyTorch (`torch`, `torch.nn`, `torch.optim`)**
@@ -180,7 +160,7 @@ Além do notebook, foi elaborado um **conjunto de slides** contendo:
 
 ---
 
-# 👥 Equipe
+## 👥 Equipe
 
 **Equipe 1**
 
@@ -191,7 +171,7 @@ Modelo utilizado pela equipe: **EfficientNetV2-S**
 
 ---
 
-# 👩‍🏫 Orientação
+## 👩‍🏫 Orientação
 
 - **Profa. Dra. Elloá B. Guedes**  
 - **Disciplina:** Tópicos para Computação 1  
